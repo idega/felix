@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+  <properties>
+    <title>Felix changes</title>
+    <author email="eiki@idega.is">Eirikur S. Hrafnsson</author>
+  </properties>
+  <body>
+    
+  	<release version="3.1.0" date="2007-03-07">
+		<action dev="eiki" type="update">
+			First version of the Sports Federation member system webapplication.
+		</action>     
+	</release>
+
+  </body>
+</document>

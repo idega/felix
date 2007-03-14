@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Felix"
+  href="http://www.felix.is/">
+
+  <title>IdegaWeb Felix</title>
+  <body>
+    <menu name="Home">
+      <item name="IdegaWeb Felix"  href="/index.html" />
+    </menu>
+  </body>
+</project>
