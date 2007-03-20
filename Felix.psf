@@ -6,21 +6,26 @@
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.jtds.database.bundle,com.jtds.database"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.user.bundle,com.idega.block.user"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.finance.bundle,is.idega.block.finance"/>
-		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.nationalregister.bundle,is.idega.block.nationalregister"/>
+		
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.finance.bundle,com.idega.block.finance"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.basket.bundle,com.idega.block.basket"/>
+		
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.golf.bundle,is.idega.idegaweb.golf"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.golf.block.image.bundle,is.idega.idegaweb.golf.block.image"/>
+		
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.nationalregister.bundle,is.idega.block.nationalregister"/>so
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.member.bundle,is.idega.idegaweb.member"/>
-		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.member.isi.block.accounting.bundle,is.idega.idegaweb.member.isi.block.accounting"/>
-		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.member.isi.bundle,is.idega.idegaweb.member.isi.bundle"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.member.isi.bundle,is.idega.idegaweb.member.isi"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.family.bundle,is.idega.block.family"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.importer.bundle,com.idega.block.importer"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.nationalregister.bundle,is.idega.block.nationalregister"/>
 		
-		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/jasperreports.bundle, "/>
+		<!--project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/jasperreports.bundle,jasperreports"/ -->
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.cal.bundle,com.idega.block.cal"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.calendar.bundle,com.idega.block.calendar"/>
 		
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.datareport.bundle,com.idega.block.datareport"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.dataquery.bundle,com.idega.block.dataquery"/>
-		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.entity.bundle,com.idega.block.entity"/>
 		
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.filter.bundle,com.idega.block.filter"/>
 
