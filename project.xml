@@ -17,7 +17,7 @@
      <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.member</artifactId>
-      <version>1.0.5</version>
+      <version>3.1.0</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
@@ -33,7 +33,7 @@
      <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.family</artifactId>
-      <version>1.0.2</version>
+      <version>1.0.3</version>
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
@@ -41,26 +41,18 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.nationalregister</artifactId>
-      <version>1.0.3</version>
+      <version>1.0.4</version>
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
     
-    <dependency>
-      <groupId>jasperreports</groupId>
-      <artifactId>jasperreports</artifactId>
-      <version>0.6.1</version>
-      <type>jar</type>
-      <url>http://jasperreports.sourceforge.net/</url>
-    </dependency>
-    
-    <dependency>
+    <!-- dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.golf</artifactId>
       <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
-    </dependency>
+    </dependency -->
     
     <dependency>
       <groupId>bundles</groupId>
@@ -73,7 +65,7 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.jtds.database</artifactId>
-      <version>SNAPSHOT</version>
+      <version>1.2</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
       <properties/>
@@ -93,6 +85,14 @@
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.finance</artifactId>
       <version>3.1.2</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com/</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>is.idega.block.finance</artifactId>
+      <version>3.1.0</version>
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
@@ -132,7 +132,7 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.user</artifactId>
-      <version>SNAPSHOT</version>
+      <version>3.1.0</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
