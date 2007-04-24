@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pxml>
+  <map>
+    <key>
+      <name>properties_for_entity</name>
+      <value>
+        <map>
+          <key>
+            <name>com.idega.user.data.User</name>
+            <value>
+              <map>
+                <key>
+                  <name>LedgerWindow.number_of_rows_per_page</name>
+                  <type>java.lang.String</type>
+                  <value>30</value>
+                </key>
+                <key>
+                  <name>LedgerWindow.visible_columns</name>
+                  <value>
+                    <map>
+                      <key>
+                        <name>0</name>
+                        <type>java.lang.String</type>
+                        <value>com.idega.user.data.User@FIRST_NAME@com.idega.user.data.User#com.idega.user.data.User@MIDDLE_NAME@com.idega.user.data.User#com.idega.user.data.User@LAST_NAME@com.idega.user.data.User</value>
+                      </key>
+                      <key>
+                        <name>1</name>
+                        <type>java.lang.String</type>
+                        <value>com.idega.block.cal.data.CalendarEntry@CAL_ENTRY_DATE@com.idega.block.cal.data.CalendarEntry</value>
+                      </key>
+                      <key>
+                        <name>2</name>
+                        <type>java.lang.String</type>
+                        <value>com.idega.user.data.User@PERSONAL_ID@com.idega.user.data.User</value>
+                      </key>
+                    </map>
+                  </value>
+                  <type>map</type>
+                </key>
+              </map>
+            </value>
+            <type>map</type>
+          </key>
+        </map>
+      </value>
+      <type>map</type>
+    </key>
+  </map>
+</pxml>
+

@@ -1,0 +1,14 @@
+idegaweb.ldap.autostart=true
+idegaweb.webservice.port=80
+javaldap.acl.props=./acls.prop
+javaldap.aclcheck=0
+javaldap.debug=9
+javaldap.rootpw=iwmember
+javaldap.rootuser=cn\=Admin
+javaldap.schema.std=./std.oc.xml
+javaldap.schema.user=./user.oc.xml
+javaldap.schemacheck=0
+javaldap.server.backends=./backends.prop
+javaldap.server.name=localhost
+javaldap.server.port=10389
+javaldap.server.threads=16

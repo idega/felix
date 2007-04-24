@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pxml>
+  <map>
+    <key>
+      <name>properties_for_entity</name>
+      <value>
+        <map>
+          <key>
+            <name>com.idega.user.data.User</name>
+            <value>
+              <map />
+            </value>
+            <type>map</type>
+          </key>
+        </map>
+      </value>
+      <type>map</type>
+    </key>
+  </map>
+</pxml>
+

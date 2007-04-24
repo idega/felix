@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pxml>
+  <map>
+    <key>
+      <name>properties_for_entity</name>
+      <value>
+        <map>
+          <key>
+            <name>com.idega.user.data.User</name>
+            <value>
+              <map>
+                <key>
+                  <name>LedgerWindow.number_of_rows_per_page</name>
+                  <type>java.lang.String</type>
+                  <value>60</value>
+                </key>
+              </map>
+            </value>
+            <type>map</type>
+          </key>
+        </map>
+      </value>
+      <type>map</type>
+    </key>
+  </map>
+</pxml>
+
