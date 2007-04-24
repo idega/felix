@@ -20,7 +20,7 @@
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.importer.bundle,com.idega.block.importer"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.nationalregister.bundle,is.idega.block.nationalregister"/>
 		
-		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.cal.bundle,com.idega.block.cal"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.cal.bundle,com.idega.block.cal,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.calendar.bundle,com.idega.block.calendar,BRANCH_PLATFORM_3_1"/>
 		
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.datareport.bundle,com.idega.block.datareport"/>
