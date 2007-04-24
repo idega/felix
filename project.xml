@@ -10,18 +10,22 @@
   <inceptionYear>2002</inceptionYear>
   <shortDescription>IdegaWeb Member (Felix) webapplication</shortDescription>
   <versions>
+    <version>
+      <id>3.1.0</id>
+      <name>3.1.0</name>
+      <tag>FELIX_3_1_0</tag>
+    </version>
   </versions>
   <dependencies>
-    
     <!-- IdegaWeb Member specific modules -->
-     <dependency>
+
+    <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.member</artifactId>
       <version>3.1.0</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.member.isi</artifactId>
@@ -29,15 +33,13 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    
-     <dependency>
+    <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.family</artifactId>
       <version>1.0.3</version>
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.nationalregister</artifactId>
@@ -45,7 +47,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <!-- dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.golf</artifactId>
@@ -53,7 +54,7 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency -->
-    
+
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.cal</artifactId>
@@ -61,7 +62,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.jtds.database</artifactId>
@@ -70,9 +70,8 @@
       <url>http://www.idega.com</url>
       <properties/>
     </dependency>
-    
     <!-- Other Modules -->
-    
+
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.calendar</artifactId>
@@ -80,7 +79,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.finance</artifactId>
@@ -88,7 +86,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.finance</artifactId>
@@ -96,7 +93,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.basket</artifactId>
@@ -104,7 +100,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.datareport</artifactId>
@@ -112,7 +107,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.dataquery</artifactId>
@@ -120,7 +114,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
- 
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.filter</artifactId>
@@ -128,7 +121,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.user</artifactId>
@@ -136,7 +128,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.entity</artifactId>
@@ -144,8 +135,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    
-
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.importer</artifactId>
@@ -153,7 +142,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.category</artifactId>
@@ -161,7 +149,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.text</artifactId>
@@ -169,7 +156,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.news</artifactId>
@@ -177,7 +163,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.help</artifactId>
@@ -185,7 +170,5 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    
   </dependencies>
-  
 </project>
