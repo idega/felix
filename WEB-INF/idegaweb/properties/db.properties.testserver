@@ -1,0 +1,6 @@
+drivers=net.sourceforge.jtds.jdbc.Driver
+default.url=jdbc:jtds:sqlserver://192.168.76.186
+default.user=idega
+default.password=id537X$
+default.initconns=10
+default.maxconns=300
