@@ -20,6 +20,11 @@
       <name>3.1.1</name>
       <tag>FELIX_3_1_1</tag>
     </version>
+    <version>
+      <id>3.1.2</id>
+      <name>3.1.2</name>
+      <tag>FELIX_3_1_2</tag>
+    </version>
   </versions>
   <dependencies>
     <!-- IdegaWeb Member specific modules -->
@@ -52,7 +57,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.cal</artifactId>
@@ -60,7 +64,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>
-    
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.jtds.database</artifactId>
