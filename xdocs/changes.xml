@@ -7,6 +7,15 @@
   </properties>
   <body>
     
+    <release version="3.1.1" date="2007-06-01">
+		<action dev="eiki" type="update">
+			Updated to ePlatform 3.1.79 with numerous changes and fixes for Felix
+			Finished moving the userapp to the workspace and AdminMenu now forwards to the workspace
+			Updated news,text,category and cal.
+			Set the stylesheet path in the ibxml
+		</action>     
+	</release>
+	
     <release version="3.1.1" date="2007-04-30">
 		<action dev="eiki" type="update">
 			Completed merging an refactored golf stuff to is.idega.idegaweb.member.isi.block.golf.

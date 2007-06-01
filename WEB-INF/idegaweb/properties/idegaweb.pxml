@@ -134,7 +134,7 @@
     <key>
       <name>USER_APP_STYLE_SHEET</name>
       <type>java.lang.String</type>
-      <value>/content/files/public/style/FelixStyle.css</value>
+      <value>/idegaweb/style/Felix.css</value>
     </key>
     <key>
       <name>USER_APP_DISPLAY_DESCRIPTION</name>
