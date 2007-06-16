@@ -6,6 +6,13 @@
     <author email="eiki@idega.is">Eirikur S. Hrafnsson</author>
   </properties>
   <body>
+  
+    <release version="3.1.2" date="2007-06-16">
+      <action dev="eiki" type="update">
+		Updated to eplatform 3.1.85 with dwr 2.0.1 and core updates. 
+		Also updated member 3.1.2, member.isi 3.1.3 and national registry modules.
+      </action>
+    </release>
     
     <release version="3.1.1" date="2007-06-01">
 		<action dev="eiki" type="update">
