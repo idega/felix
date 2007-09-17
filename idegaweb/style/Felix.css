@@ -340,3 +340,13 @@ select {
 	font-weight:bold;
 	color:#828282;
 }
+
+/* App Logo */
+div.ws_head div.ws_appdecor{
+	position: absolute;
+	top: -7px;
+	left: -3px;
+	width: 100px;
+	height: 33px;
+	background: url(/idegaweb/style/felix_transparent.png) no-repeat;
+}
