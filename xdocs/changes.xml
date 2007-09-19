@@ -10,6 +10,7 @@
     <release version="3.1.4" date="2007-09-19">
       <action dev="eiki" type="update">
 		Updated to com.idega.block.cal 3.1.8
+		Added com.idega.block.ldap 3.1.4
 		
       </action>
     </release>
