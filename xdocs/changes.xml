@@ -7,6 +7,13 @@
   </properties>
   <body>
   
+    <release version="3.1.4" date="2007-09-19">
+      <action dev="eiki" type="update">
+		Updated to com.idega.block.cal 3.1.8
+		
+      </action>
+    </release>
+    
     <release version="3.1.3" date="2007-09-17">
       <action dev="eiki" type="update">
 		Updated to eplatform 3.1.105
