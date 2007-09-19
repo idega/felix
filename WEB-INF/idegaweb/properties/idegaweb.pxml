@@ -4,7 +4,7 @@
     <key>
       <name>character_encoding</name>
       <type>java.lang.String</type>
-      <value>ISO-8859-1</value>
+      <value>UTF-8</value>
     </key>
     <key>
       <name>defaultlocale</name>
