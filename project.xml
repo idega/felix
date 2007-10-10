@@ -6,7 +6,7 @@
   <name>felix</name>
   <groupId>iw-applications</groupId>
   <artifactId>felix</artifactId>
-  <currentVersion>3.1.4</currentVersion>
+  <currentVersion>3.1.5</currentVersion>
   <inceptionYear>2002</inceptionYear>
   <shortDescription>IdegaWeb Member (Felix) webapplication</shortDescription>
   <versions>
@@ -111,7 +111,7 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.finance</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
     </dependency>

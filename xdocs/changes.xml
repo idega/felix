@@ -7,6 +7,13 @@
   </properties>
   <body>
   
+    <release version="3.1.5" date="2007-10-10">
+      <action dev="eiki" type="update">
+		Fixing webservices. is.idega.block.finance was forcing us to always require wss4j.	
+		Updated to is.idega.block.finance 3.1.1	
+      </action>
+    </release>
+    
     <release version="3.1.4" date="2007-09-19">
       <action dev="eiki" type="update">
 		Updated to com.idega.block.cal 3.1.8
