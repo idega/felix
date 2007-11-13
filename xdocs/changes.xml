@@ -7,6 +7,12 @@
   </properties>
   <body>
   
+    <release version="3.1.6" date="2007-11-13">
+      <action dev="eiki" type="update">
+		Updates cause of eplatform fixes (3.1.110)	
+      </action>
+    </release>
+  
     <release version="3.1.5" date="2007-10-10">
       <action dev="eiki" type="update">
 		Fixing webservices. is.idega.block.finance was forcing us to always require wss4j.	
