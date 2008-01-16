@@ -6,6 +6,11 @@
     <author email="eiki@idega.is">Eirikur S. Hrafnsson</author>
   </properties>
   <body>
+  	<release version="3.1.7" date="2008-01-16">
+      <action dev="valdas" type="update">
+		Updated com.idega.block.cal to 3.1.9
+      </action>
+    </release>
   
     <release version="3.1.6" date="2007-11-13">
       <action dev="eiki" type="update">
