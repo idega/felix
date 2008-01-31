@@ -60,6 +60,11 @@
       <name>3.1.9</name>
       <tag>FELIX_3_1_9</tag>
     </version>
+    <version>
+      <id>3.1.10</id>
+      <name>3.1.10</name>
+      <tag>FELIX_3_1_10</tag>
+    </version>
   </versions>
   <dependencies>
     <!-- IdegaWeb Member specific modules -->
