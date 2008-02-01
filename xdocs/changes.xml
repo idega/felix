@@ -6,6 +6,11 @@
     <author email="eiki@idega.is">Eirikur S. Hrafnsson</author>
   </properties>
   <body>
+    <release version="3.1.11" date="2008-02-01">
+      <action dev="gimmi" type="update">
+      	Ledger update, and user properties update
+      </action>
+    </release>
   <release version="3.1.10" date="2008-01-31">
       <action dev="palli" type="update">
 		Updated is.idega.block.finance to version 3.1.2 because of LI connection.	
