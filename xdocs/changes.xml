@@ -6,6 +6,11 @@
     <author email="eiki@idega.is">Eirikur S. Hrafnsson</author>
   </properties>
   <body>
+    <release version="3.1.16" date="2008-04-07">
+      <action dev="gimmi" type="update">
+		Updated is.idega.idegaweb.member.isi to 3.1.4
+      </action>
+    </release>
   	<release version="3.1.15" date="2008-03-10">
       <action dev="gimmi" type="update">
 		Updated com.idega.block.datareport to 3.1.5
