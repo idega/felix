@@ -6,7 +6,7 @@
   <name>felix</name>
   <groupId>iw-applications</groupId>
   <artifactId>felix</artifactId>
-  <currentVersion>3.1.6</currentVersion>
+  <currentVersion>3.1.16</currentVersion>
   <inceptionYear>2002</inceptionYear>
   <shortDescription>IdegaWeb Member (Felix) webapplication</shortDescription>
   <versions>
@@ -91,8 +91,8 @@
       <tag>FELIX_3_1_15</tag>
     </version>
     <version>
-      <id>3.1.6</id>
-      <name>3.1.6</name>
+      <id>3.1.16</id>
+      <name>3.1.16</name>
       <tag>FELIX_3_1_16</tag>
     </version>
   </versions>
