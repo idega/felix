@@ -42,26 +42,7 @@
 	</developers>
 	<dependencies>
 		<!-- Core dependencies -->
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.builder</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.faces</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>org.apache.myfaces</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.user</artifactId>
-		</dependency>
+		<!-- Core dependencies -->
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.block.article</artifactId>
@@ -76,11 +57,23 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.login</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.block.media</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.block.navigation</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.process</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.process.webservice</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
@@ -92,7 +85,15 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.builder</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.content</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.core</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
@@ -104,15 +105,39 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.faces</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.graphics</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.hibernate</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.jackrabbit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.manager</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.multidomain</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.setup</artifactId>
 		</dependency>
 		<dependency>
+	      <groupId>com.idega.block.platform</groupId>
+	  	  <artifactId>com.idega.springframework</artifactId>
+	    </dependency>
+		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.jackrabbit</artifactId>
+			<artifactId>com.idega.user</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
@@ -128,19 +153,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.graphics</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.hibernate</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.block.process</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.block.process.webservice</artifactId>
+			<artifactId>org.apache.myfaces</artifactId>
 		</dependency>
 		
 		<!-- Addons -->
