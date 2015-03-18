@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.idega.block.private</groupId>
+		<artifactId>com.idega.block.private</artifactId>
+		<version>5.0.0-SNAPSHOT</version>
+	</parent>
+	<name>Idega Member system</name>
+	<groupId>com.idega.webapp.custom</groupId>
+	<artifactId>felix</artifactId>
+	<packaging>iwwar</packaging>
+	<description>The eServices project for membership in sports clubs</description>
+	<inceptionYear>2002</inceptionYear>
+	<organization>
+		<name>idega software</name>
+		<url>http://www.idega.com/</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<name>Tryggvi Larusson</name>
+			<id>tryggvil</id>
+			<email>tryggvi@idega.is</email>
+			<organization>Idega Software</organization>
+			<roles />
+		</developer>
+		<developer>
+			<name>Thorhallur Helgason</name>
+			<id>laddi</id>
+			<email>laddi@idega.com</email>
+			<organization>Idega Software</organization>
+			<roles />
+		</developer>
+		<developer>
+			<name>Pall Helgason</name>
+			<id>palli</id>
+			<email>palli@idega.com</email>
+			<organization>Idega Software</organization>
+			<roles />
+		</developer>
+	</developers>
+	<dependencies>
+		<!-- Core dependencies -->
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.builder</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.faces</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>org.apache.myfaces</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.user</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.article</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.entity</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.image</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.media</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.navigation</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.rss</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.web2.0</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.content</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.developer</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.dwr</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.manager</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.setup</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.jackrabbit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.webface</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.workspace</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>org.apache.axis</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.graphics</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.hibernate</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.process</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.process.webservice</artifactId>
+		</dependency>
+		
+		<!-- Addons -->
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.cal</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.calendar</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.finance</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.basket</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.datareport</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.dataquery</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.filter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.user</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.importer</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.category</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.text</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.news</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.help</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.ldap</artifactId>
+		</dependency>
+		
+		<!-- eGov -->
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.block.family</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.block.nationalregister</artifactId>
+		</dependency>
+		
+		<!-- Solution -->
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.member</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.block.finance</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.member.isi</artifactId>
+		</dependency>
+	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>idega1</id>
+			<name>idega Maven2 Repository</name>
+			<url>file:///var/www/webs/repository.idega.com/maven2</url>
+		</repository>
+		<site>
+			<id>idega1</id>
+			<name>idega Maven2 Documentation site</name>
+			<url>file:///var/www/webs/developer.idega.com/platform5/${groupId}/${artifactId}</url>
+		</site>
+	</distributionManagement>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>idega1</id>
+			<name>idega maven2 repository</name>
+			<url>http://repository.idega.com/maven2/</url>
+			<!--snapshotPolicy>daily</snapshotPolicy-->
+		</pluginRepository>
+	</pluginRepositories>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>buildnumber-maven-plugin</artifactId>
+				<version>1.0-beta-2</version>
+				<configuration>
+					<format>{0,date,yyyyMMdd.HHmmss}</format>
+					<items>
+						<item>timestamp</item>
+					</items>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>validate</phase>
+						<goals>
+							<goal>create</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>com.idega.maven.plugins</groupId>
+				<artifactId>com.idega.maven.webapp</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<extractResources>true</extractResources>
+					<webResources>
+						<resource>
+							<directory>resources</directory>
+							<targetPath>resources</targetPath>
+						</resource>
+					</webResources>
+					<archive>
+						<manifest>
+							<!--addClasspath>true</addClasspath-->
+							<addExtensions />
+						</manifest>
+						<manifestEntries>
+							<!--Implementation-Vendor>${pom.organization.name}</Implementation-Vendor-->
+							<Implementation-Vendor-Url>${pom.organization.url}</Implementation-Vendor-Url>
+							<Implementation-Build>${buildNumber}</Implementation-Build>
+							<Implementation-InceptionYear>${pom.inceptionYear}</Implementation-InceptionYear>
+						</manifestEntries>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
