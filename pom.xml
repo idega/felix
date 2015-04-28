@@ -42,7 +42,6 @@
 	</developers>
 	<dependencies>
 		<!-- Core dependencies -->
-		<!-- Core dependencies -->
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.block.article</artifactId>
